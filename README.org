@@ -1,1 +1,12 @@
 #+title: 基础数据结构与算法
+
+* Sort
+- fastSort.js -- 快排
+- heap.js -- 堆排
+* Linklist
+- linklist.c -- 链表的生成、插入、删除、索引操作
+- cross.js -- 两条链表的相交问题
+* BinaryTree
+- isBST.js -- 判断一棵二叉树是否为搜索二叉树
+- isBalance.js -- 判断一棵二叉树是否为平衡二叉树
+- isFull.js -- 判断一棵二叉树是否为满二叉树
