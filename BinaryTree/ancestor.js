@@ -1,3 +1,19 @@
+class Tree {
+  constructor (value, left, right) {
+    this.value = value
+    this.left = left
+    this.right = right
+  }
+}
+
+var node1 = new Tree(3, null, null)
+var node2 = new Tree(5, null, null)
+var node3 = new Tree(8, null, null)
+var node4 = new Tree(10, null, null)
+var node5 = new Tree(4, node1, node2)
+var node6 = new Tree(9, node3, node4)
+var node7 = new Tree(6, node5, node6)
+
 // findO1--是否找到O1, findO2--是否找到O2, node--最低公共祖先
 class Info {
   constructor (findO1, findO2, node) {
@@ -50,3 +66,10 @@ function process (head, O1, O2) {
   }
   return new Info(findO1, findO2, null)
 }
+
+// findAncestor: 在树head上寻找O1和O2的最低公共祖先 
+function findAncestor (head, O1, O2) {
+  console.log(process(head, O1, O2).node)
+}
+
+findAncestor(node7, node1, node2)
