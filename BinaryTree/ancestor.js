@@ -67,7 +67,7 @@ function process (head, O1, O2) {
   return new Info(findO1, findO2, null)
 }
 
-// findAncestor: 在树head上寻找O1和O2的最低公共祖先 
+// findAncestor: 在树head上寻找O1和O2的最低公共祖先
 function findAncestor (head, O1, O2) {
   console.log(process(head, O1, O2).node)
 }
