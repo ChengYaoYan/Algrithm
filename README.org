@@ -10,3 +10,7 @@
 - isBST.js -- 判断一棵二叉树是否为搜索二叉树
 - isBalance.js -- 判断一棵二叉树是否为平衡二叉树
 - isFull.js -- 判断一棵二叉树是否为满二叉树
+- ancestor.js -- 找到兩個节点的最低公共祖先
+- isComplete.js -- 判断二叉树是否为完全二叉树
+- subsequence.js -- 按照中序遍历的方式找到树中某一个节点的后继节点
+- reconByPreString.js -- 二叉树的序列化和反序列化
