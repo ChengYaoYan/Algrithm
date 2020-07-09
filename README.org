@@ -14,3 +14,4 @@
 - isComplete.js -- 判断二叉树是否为完全二叉树
 - subsequence.js -- 按照中序遍历的方式找到树中某一个节点的后继节点
 - reconByPreString.js -- 二叉树的序列化和反序列化
+- paperFolding.js -- 折纸问题
