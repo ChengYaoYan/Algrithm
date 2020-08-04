@@ -26,7 +26,7 @@ function reconByPreString (node) {
 }
 
 // reconPre: 反序列化一棵二叉树
-// parameter: `queuq`--序列化队列
+// parameter: `queue`--序列化队列
 function reconPre (queue) {
   var value = queue.shift()
 
@@ -42,4 +42,3 @@ function reconPre (queue) {
 
 var queue = reconByPreString(node1).split('_').slice(0, -1)
 console.log(reconPre(queue))
-
